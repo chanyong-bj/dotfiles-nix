@@ -22,7 +22,7 @@ For Git config, create the following symlinks:
 
     ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
     ln -s ~/.dotfiles/git/gitignore_global ~/.gitignore_global
-
+    git config --global core.excludesfile ~/.gitignore_global
 
 
 
