@@ -1,8 +1,7 @@
 This repository holds Ubuntu OS env. config files that I can clone them to other machines easily.
 
 # Installation
-    git clone git@github.com:chanyong-bj/dotfiles-ubuntu.git ~/.dotfiles
-
+    git clone https://github.com/chanyong-bj/dotfiles-nix.git ~/.dotfiles
 # Setup
 
 ## Vim
