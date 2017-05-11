@@ -9,7 +9,7 @@ This repository holds Ubuntu OS env. config files that I can clone them to other
 For Vim config and use, create the following symlinks:
 
     ln -s ~/.dotfiles/vim ~/.vim
-    ln -s ~/.dotfiles/vimrc ~/.vimrc
+    ln -s ~/.dotfiles/vim/vimrc ~/.vimrc
 
 ## bash
 For bash shell config and use, create the following symlinks:
@@ -23,6 +23,3 @@ For Git config, create the following symlinks:
     ln -s ~/.dotfiles/git/gitconfig ~/.gitconfig
     ln -s ~/.dotfiles/git/gitignore_global ~/.gitignore_global
     git config --global core.excludesfile ~/.gitignore_global
-
-
-
