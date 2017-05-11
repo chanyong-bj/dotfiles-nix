@@ -1,6 +1,7 @@
 
 # Virtual environment config
 export WORKON_HOME=$HOME/.virtualenvs
+[ -f /usr/bin/virtualenvwrapper.sh ] && source /usr/bin/virtualenvwrapper.sh
 [ -f /usr/local/bin/virtualenvwrapper.sh ] && source /usr/local/bin/virtualenvwrapper.sh
 [ -f /etc/bash_completion.d/virtualenvwrapper ] && source /etc/bash_completion.d/virtualenvwrapper
 export PIP_VIRTUALENV_BASE=$HOME/.virtualenvs
